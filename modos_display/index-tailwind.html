@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>    
+    <style>
+        .elemento{
+            display: inline;
+            background-color: black;
+            color: white;
+            width: 200;
+            height: 200;           
+        }
+
+        .elemento_block{
+            display: block;
+            background-color: #023;
+            color: rgb(228, 62, 62);
+            width: 200px;
+            height:200px ;
+
+        }
+        .resaltado {
+            color: blueviolet;
+            letter-spacing: 2px;  /* para aumentar la distncia entre letras*/
+            font-family: Arial ;
+            font-size: large ;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>                  
+    <h1>INLINE:</h1>
+    <div class="inline bg-violet-400 text-white">
+        Productos
+    </div>
+
+    <div class="inline bg-rose-400 text-white">
+        Nosotros
+    </div>
+
+
+    <div class="inline bg-green-400 text-white">
+        Servicios
+    </div>
+
+    <div class="inline bg-blue-400 text-white">
+        Contacto
+    </div>
+
+    <hr>
+
+    <h1>BLOCK</h1> 
+
+    <div class="block bg-teal-400 text-yellow-600 w-[200px] h-[100px] " >
+        Productos
+    </div>
+
+    <div class="block bg-indigo-400 text-yellow-600 w-[200px] h-[100px]" >
+        Nosotros
+    </div>
+
+
+    <div class="block bg-blue-400  text-yellow-600 w-[200px] h-[100px]">
+        Servicios
+    </div>
+
+    <div class="block bg-sky-400 text-yellow-600 w-[200px] h-[100px]">
+        Contacto
+    </div>
+</body>
+</html>
