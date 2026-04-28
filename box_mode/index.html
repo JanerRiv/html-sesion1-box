@@ -5,18 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+        margin: 0;
+        padding: 0;
+        }
+        
         .padre{
             width: 500px;
-            height: 400px;
-            background-color: blueviolet;
+            height: 550px auto;
+            background-color: rgb(247, 24, 24);
             display: block;
+            margin:  0px auto 40px auto; 
+            padding-top: 50px;
+            -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+            box-shadow: 5px 5px 15px 5px #000000;
+            
+            
+
         }
         .hijo{
+            
+            margin-top: 8px;
+            margin-right: auto;
+            margin-bottom: 60px;
+            margin-left: auto;
             width: 200px;
             height: 200px;
             background-color: white;
             display: block;
-            padding: 20px 30px 5px 10px ;
 
             border-top-style: double  ;
             border-top-width: 10px; 
@@ -35,20 +51,31 @@
             border-bottom-width:5px ;
             border-bottom-color: blue ; 
 
+
+            border-radius: 50% ; 
+            -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+            box-shadow: 5px 5px 15px 5px #000000;   
+        }
+
+        .hijo2{
+            margin-top: -100px;
             
 
+
         }
-        
 
     </style>
 </head>
 <body>
     <div class="padre">
         <div class="hijo">
-            Hijo
+            Hijo 1
+        </div>
+        <div class="hijo hijo2">
+            Hijo 2
         </div>
     </div>
-
+    
 
 </body>
 </html>
